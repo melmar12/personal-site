@@ -8,9 +8,9 @@
 
 html, body, .container {height: 100%;}
 
-h1 {font-size: 40px;}
+h1 {font-size: 80px;}
 
-h2 {font-size: 14px;}
+h2 {font-size: 20px;}
 
 .container {
 	background-color: white;
@@ -23,7 +23,7 @@ h2 {font-size: 14px;}
 	-webkit-align-items: center;
 }
 
-.content {width: 360px;}
+.content {width: 700px;}
 
 .row-one {border-bottom: 1px solid #e9e9e9;}
 
@@ -45,7 +45,7 @@ h2 {font-size: 14px;}
 	-wekit-flex-direction: row;
 }
 
-.column {width: 180px;}
+.column {width: 350px;}
 
 .icon-box {
 	align-items: center;
