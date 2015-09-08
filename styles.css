@@ -17,6 +17,10 @@ h2 {font-size: 14px;}
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	display: -webkit-flex;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
 }
 
 .content {width: 360px;}
@@ -28,11 +32,17 @@ h2 {font-size: 14px;}
 .row-one, .column, .icon-box {
 	display: flex;
 	justify-content: center;
+
+	display: -webkit-flex;
+	-webkit-justify-content: center;
 }
 
 .row-two, .row-three {
 	display: flex;
 	flex-direction: row;
+
+	display: -webkit-flex;
+	-wekit-flex-direction: row;
 }
 
 .column {width: 180px;}
@@ -43,6 +53,8 @@ h2 {font-size: 14px;}
 	height: 50px;
 	border-radius: 100%;
 	border: 1px solid black;
+
+	-webkit-align-items: center;
 }
 
 .icon {height: 30px;}
